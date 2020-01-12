@@ -1,0 +1,13 @@
+c:\users\usuario\documents\visual studio 2013\Projects\listacliente\listacliente\bin\Debug\listacliente.exe.config
+c:\users\usuario\documents\visual studio 2013\Projects\listacliente\listacliente\bin\Debug\listacliente.exe
+c:\users\usuario\documents\visual studio 2013\Projects\listacliente\listacliente\bin\Debug\listacliente.pdb
+c:\users\usuario\documents\visual studio 2013\Projects\listacliente\listacliente\bin\Debug\listacliente.xml
+c:\users\usuario\documents\visual studio 2013\Projects\listacliente\listacliente\obj\Debug\listacliente.Form1.resources
+c:\users\usuario\documents\visual studio 2013\Projects\listacliente\listacliente\obj\Debug\listacliente.Resources.resources
+c:\users\usuario\documents\visual studio 2013\Projects\listacliente\listacliente\obj\Debug\listacliente.vbproj.GenerateResource.Cache
+c:\users\usuario\documents\visual studio 2013\Projects\listacliente\listacliente\obj\Debug\listacliente.exe
+c:\users\usuario\documents\visual studio 2013\Projects\listacliente\listacliente\obj\Debug\listacliente.xml
+c:\users\usuario\documents\visual studio 2013\Projects\listacliente\listacliente\obj\Debug\listacliente.pdb
+c:\users\usuario\documents\visual studio 2013\Projects\listacliente\listacliente\obj\Debug\listacliente.Form2.resources
+C:\Users\usuario\Documents\Visual Studio 2013\Projects\listacliente\listacliente\obj\Debug\listacliente.vbprojResolveAssemblyReference.cache
+C:\Users\usuario\Documents\Visual Studio 2013\Projects\listacliente\listacliente\obj\Debug\listacliente.Form3.resources
