@@ -18,7 +18,7 @@ Public Class Form2
       
 
 
-        Dim con As New SqlConnection("Server=192.168.100.53;DATABASE=farmacia; User id= user; Password=pquinde")
+        Dim con As New SqlConnection("Server=192.168.27.30;DATABASE=farmacia; User id= user; Password=pquinde")
 
         Try
             con.Open()

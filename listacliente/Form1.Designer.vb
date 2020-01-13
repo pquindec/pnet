@@ -29,6 +29,9 @@ Partial Class Form1
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.txtcedula = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -55,7 +58,7 @@ Partial Class Form1
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(116, 220)
+        Me.Label2.Location = New System.Drawing.Point(22, 222)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(143, 20)
         Me.Label2.TabIndex = 2
@@ -67,14 +70,14 @@ Partial Class Form1
         Me.tcliente.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.tcliente.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tcliente.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.tcliente.Location = New System.Drawing.Point(292, 220)
+        Me.tcliente.Location = New System.Drawing.Point(171, 222)
         Me.tcliente.Name = "tcliente"
         Me.tcliente.Size = New System.Drawing.Size(2, 22)
         Me.tcliente.TabIndex = 3
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(437, 216)
+        Me.Button1.Location = New System.Drawing.Point(447, 288)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 4
@@ -83,7 +86,7 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(346, 216)
+        Me.Button2.Location = New System.Drawing.Point(366, 288)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 5
@@ -92,18 +95,46 @@ Partial Class Form1
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(518, 216)
+        Me.Button3.Location = New System.Drawing.Point(528, 288)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 6
         Me.Button3.Text = "actualizar"
         Me.Button3.UseVisualStyleBackColor = True
         '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(285, 288)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(75, 23)
+        Me.Button4.TabIndex = 7
+        Me.Button4.Text = "eliminar"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'txtcedula
+        '
+        Me.txtcedula.Location = New System.Drawing.Point(73, 256)
+        Me.txtcedula.Name = "txtcedula"
+        Me.txtcedula.Size = New System.Drawing.Size(100, 20)
+        Me.txtcedula.TabIndex = 8
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(23, 263)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(39, 13)
+        Me.Label3.TabIndex = 9
+        Me.Label3.Text = "cedula"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(603, 262)
+        Me.ClientSize = New System.Drawing.Size(603, 314)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.txtcedula)
+        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -125,5 +156,8 @@ Partial Class Form1
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents Button4 As System.Windows.Forms.Button
+    Friend WithEvents txtcedula As System.Windows.Forms.TextBox
+    Friend WithEvents Label3 As System.Windows.Forms.Label
 
 End Class

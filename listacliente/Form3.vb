@@ -5,7 +5,7 @@ Public Class Form3
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
 
-        Dim con As New SqlConnection("Server=192.168.100.53;DATABASE=farmacia; User id= user; Password=pquinde")
+        Dim con As New SqlConnection("Server=192.168.27.30;DATABASE=farmacia; User id= user; Password=pquinde")
         con.Open()
         Dim sql As String = "select * from cliente where cedula = @ced"
         Dim cmd As New SqlCommand(sql, con)
@@ -25,7 +25,7 @@ Public Class Form3
     End Sub
 
     Private Sub Form3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim con As New SqlConnection("Server=192.168.100.53;DATABASE=farmacia; User id= user; Password=pquinde")
+        Dim con As New SqlConnection("Server=192.168.27.30;DATABASE=farmacia; User id= user; Password=pquinde")
         Dim sa As New SqlDataAdapter("select * from cliente", con)
         Dim ds As New DataSet
         sa.Fill(ds, "cliente")
@@ -33,7 +33,7 @@ Public Class Form3
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim con As New SqlConnection("Server=192.168.100.53;DATABASE=farmacia; User id= user; Password=pquinde")
+        Dim con As New SqlConnection("Server=192.168.27.30;DATABASE=farmacia; User id= user; Password=pquinde")
         Dim sa As New SqlCommand("update cliente set nombre = @nom, apellido = @ape, correo = @cor, direccion = @dir where cedula = @ced ", con)
 
         sa.Parameters.Add("@ced ", SqlDbType.VarChar).Value = txtcedula.Text
