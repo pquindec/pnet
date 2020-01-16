@@ -11,3 +11,4 @@ c:\users\usuario\documents\visual studio 2013\Projects\listacliente\listacliente
 c:\users\usuario\documents\visual studio 2013\Projects\listacliente\listacliente\obj\Debug\listacliente.Form2.resources
 C:\Users\usuario\Documents\Visual Studio 2013\Projects\listacliente\listacliente\obj\Debug\listacliente.vbprojResolveAssemblyReference.cache
 C:\Users\usuario\Documents\Visual Studio 2013\Projects\listacliente\listacliente\obj\Debug\listacliente.Form3.resources
+C:\Users\usuario\Documents\Visual Studio 2013\Projects\listacliente\listacliente\obj\Debug\listacliente.Form4.resources
